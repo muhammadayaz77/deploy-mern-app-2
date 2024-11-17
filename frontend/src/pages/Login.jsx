@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-let url = 'http://localhost:8080';
+let url = 'https://deploy-mern-app-2.vercel.app';
 import { Link, useNavigate } from 'react-router-dom';
 function Login() {
   let navigate = useNavigate();
